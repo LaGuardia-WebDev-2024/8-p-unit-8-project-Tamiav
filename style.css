@@ -14,7 +14,19 @@ body {
 h1{
   font-size: 30px;
 }
-
+h2{
+  font-size: 40px;
+  color: rgb(123, 211, 234);
+  background-color: rgb(221, 235, 157);
+  
+  
+}
+h3{
+  font-size: 20px;
+  color: rgb(247, 247, 247);
+  background-image: url("https://th.bing.com/th/id/OIP.gVOr4t9XXQqiQgQdX9lUKAHaEK?rs=1&pid=ImgDetMain");
+  font-family: Ariel
+}
 #myCanvas {
   background-image: url("https://seaviewinfo.com/wp-content/uploads/2018/07/SeaScape.jpg");
   background-size: 600px 400px;
@@ -22,5 +34,7 @@ h1{
   border: 5px solid white;
 }
 
-
+rotate(.5);
+rect(moleX+45, moleY-80, 55,55); 
+rotate(-.5);
 
